@@ -6,12 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./main.js"></script>
+    <script src="./main.js" type="module"></script>
 </head>
 <body>
-    <header></header>
-    <main>
-        <div id="main-grid"></div>
-    </main>
+    <div>
+        <main style="display: flex;">
+            <div id="grid"></div>
+        </main>
+        <div id="color-pallete-container">
+            <div id="color-pallete-controller"></div>
+            <div id="selectedColor" style="width: 40px;height: 40px;"></div>
+            <div id="color-pallete-selector" style="display: flex; flex-direction: column;"></div>
+        </div>
+    </div>
 </body>
 </html>

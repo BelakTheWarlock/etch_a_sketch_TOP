@@ -1,0 +1,34 @@
+/* body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.button {
+    border: solid black 1px;
+    border-radius: 8px;
+    padding: 8px;
+
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #ddd;
+}
+
+.grid-square {
+    /* outline: solid red; */
+    width: 32px;
+    height: 32px;
+}
+
+.grid-row {
+    display: flex;
+}
+
+#grid {
+    border: solid black;
+    width: fit-content;    
+}
