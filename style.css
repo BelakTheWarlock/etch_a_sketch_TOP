@@ -18,17 +18,12 @@
     background-color: #ddd;
 }
 
-.grid-square {
-    /* outline: solid red; */
-    width: 32px;
-    height: 32px;
-}
-
 .grid-row {
     display: flex;
 }
 
-#grid {
+#grid-container {
     border: solid black;
-    width: fit-content;    
+    width: 960px;
+    height: 960px;
 }
