@@ -1,2 +1,1 @@
-# ToDo
- - Make the webpage look nicer
+An Etch-a-Sketch webapp project for The Odin Project.
